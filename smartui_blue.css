@@ -1,0 +1,49 @@
+smart-button {
+    --smart-color: blue;
+    --smart-surface: blue;
+    --smart-font-size: 12px;
+}
+
+smart-tabs {
+    --smart-tabs-default-height: 100% --smart-tabs-default-width:100% --smart-tabs-header-padding:5px;
+    --smart-tab-item-padding: 5px;
+    --smart-tab-item-text-transform: capitalize;
+
+    --smart-font-size: 12px;
+    --smart-color: red;
+
+    --smart-surface: #0d51b8;
+    --smart-surface-color: #757571;
+    --smart-ui-state-selected: #e8e9e8;
+
+/* 
+    --smart-ui-state-color-selected:transparent;
+    --smart-ui-state-border-selected: #1aff00; */
+    --smart-ui-state-color-focus: #050505;
+
+}
+
+smart-tabs-window{
+    --smart-primary:#0d51b8;
+    --smart-background: transparent;
+    --smart-font-size:12px;
+
+    --smart-window-default-height: 150px;
+    --smart-widnow-default-width: 200px;
+    --smart-window-header-height: 25px;
+    --smart-window-header-padding: 0px 10px;
+}
+smart-docking-layout#layout{
+    width: 100%;
+    height: 100%;
+}
+
+smart-button#searchGps{
+    /* --smart-button-padding:3px;
+    --smart-button-small-padding:3px;
+    --smart-button-large-padding:3px; */
+    height: 30px;
+    
+}
+
+smart-grid{ --smart-background:transparent; --smart-grid-header-height:35px; --smart-grid-column-header-height:30px; }
